@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASI-Togo | Afrique Solidarité Internationale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl font-black text-green-600 tracking-tighter transition hover:opacity-80 cursor-pointer">ASI-TOGO</span>
+                </div>
+                <div class="hidden md:flex space-x-10 font-medium text-sm uppercase tracking-wide">
+                    <a href="#projets" class="hover:text-green-600 transition">Nos Missions</a>
+                    <a href="#parrainage" class="hover:text-green-600 transition">Parrainage</a>
+                    <a href="#contact" class="hover:text-green-600 transition">Contact</a>
+                </div>
+                <button class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-orange-200">
+                    FAIRE UN DON
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient h-[90vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <span class="inline-block px-4 py-1 border border-white/30 rounded-full text-xs font-semibold mb-6 uppercase tracking-widest bg-white/10 backdrop-blur-sm">Organisation à but non lucratif</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Agir ensemble pour l'avenir des enfants.</h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-200 font-light leading-relaxed">ASI-Togo œuvre chaque jour pour la protection, l'éducation et la santé des populations les plus vulnérables.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#projets" class="bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-xl font-bold transition">Découvrir nos actions</a>
+                <a href="#parrainage" class="bg-white/10 hover:bg-white/20 border border-white/50 backdrop-blur-md text-white px-10 py-4 rounded-xl font-bold transition">Devenir Parrain</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div>
+                <div class="text-5xl font-black text-green-600 mb-2">100+</div>
+                <p class="text-gray-500 font-medium uppercase tracking-widest text-sm">Enfants parrainés</p>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-green-600 mb-2">15+</div>
+                <p class="text-gray-500 font-medium uppercase tracking-widest text-sm">Puits & Forages</p>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-green-600 mb-2">10+</div>
+                <p class="text-gray-500 font-medium uppercase tracking-widest text-sm">Années d'impact</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Nos domaines d'intervention</h2>
+                <div class="h-1.5 w-24 bg-orange-500 mx-auto rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-600 group-hover:text-white transition">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Éducation</h3>
+                    <p class="text-gray-600 leading-relaxed">Faciliter l'accès à la scolarisation et au soutien scolaire pour chaque enfant vulnérable (OEV).</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i data-lucide="droplet"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Eau & Santé</h3>
+                    <p class="text-gray-600 leading-relaxed">Installation de systèmes d'eau propre et promotion de l'accès universel à la santé en zone rurale.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-600 group-hover:text-white transition">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Jeunesse</h3>
+                    <p class="text-gray-600 leading-relaxed">Programmes spécialisés "Girls Class" pour l'autonomisation et l'avenir des jeunes filles au Togo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="parrainage" class="py-24 bg-green-900 text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8">Changez une vie avec seulement <span class="text-orange-400">20€ par mois.</span></h2>
+                    <p class="text-xl text-green-100 mb-10 leading-relaxed">Le parrainage à domicile permet d'assurer la nourriture, les soins et la scolarité d'un enfant au sein de sa propre communauté.</p>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center space-x-3 text-green-200">
+                            <i data-lucide="check-circle" class="text-orange-400"></i>
+                            <span>Suivi régulier de l'enfant</span>
+                        </li>
+                        <li class="flex items-center space-x-3 text-green-200">
+                            <i data-lucide="check-circle" class="text-orange-400"></i>
+                            <span>Rapports de progression annuels</span>
+                        </li>
+                    </ul>
+                    <button class="bg-orange-500 hover:bg-orange-600 text-white px-12 py-5 rounded-2xl font-black text-lg transition shadow-2xl">JE DEVIENS PARRAIN</button>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="rounded-[40px] shadow-2xl rotate-3" alt="Enfant heureux">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-20">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div>
+                <h4 class="text-white text-2xl font-bold mb-6 tracking-tighter">ASI-TOGO</h4>
+                <p class="mb-6 leading-relaxed">Afrique Solidarité Internationale Togo est une organisation enregistrée travaillant pour le développement durable et humain.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-sm">Contact direct</h4>
+                <ul class="space-y-4">
+                    <li class="flex items-start space-x-3">
+                        <i data-lucide="map-pin" class="text-green-500 w-5"></i>
+                        <span>23, Rue Bè-Klikamé, Lomé, Togo</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i data-lucide="phone" class="text-green-500 w-5"></i>
+                        <span>+228 90 28 20 54</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i data-lucide="mail" class="text-green-500 w-5"></i>
+                        <span>ongasitogo@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6 uppercase tracking-widest text-sm">Newsletter</h4>
+                <p class="mb-4">Recevez nos rapports de missions.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Votre email" class="bg-gray-800 border-none rounded-l-xl px-4 py-3 w-full focus:ring-2 focus:ring-green-500 text-white">
+                    <button class="bg-green-600 text-white px-4 rounded-r-xl font-bold hover:bg-green-700 transition">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-sm tracking-wide">
+            © 2026 ASI-TOGO - Tous droits réservés.
+        </div>
+    </footer>
+
+    <script>
+        // Initialisation des icônes Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
